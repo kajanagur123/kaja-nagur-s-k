@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+body{
+    
+        font-family: "Young Serif", serif;
+        
+      }
+      .navibar{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid black 1px;
+        gap: 10px;
+        align-items: center;
+S      }
+      .navibar__s1__title{
+        color: rgb(113, 10, 209);
+      }
+      .navibar__s2{
+        border : solid black 1px;
+        width: 60%;
+        border-radius: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+      } 
+      .navibar__s2 input{
+        width: 100%;
+        border: none;
+        display: flex;
+      }
+    
+
+    .navibar__s2 input:focus{
+        outline: none;
+    }
+    .navibar__s3{
+        display:flex;
+        gap: 10px;
+        align-items: center;
+        
+    }
+    .category{
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid black;
+    }
+      .category p1{
+        background-color: blueviolet;
+        color: beige;
+        padding: 5px;
+        border-radius: 30px;
+
+     
+     
+   }
+   
+  .recommended__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  } 
+  .recommended{
+    padding: 10px;
+
+  }
+  .course-card{
+    width: 200px;
+  }
+  .course-card img{
+    width: 100%;
+    height: 50%;
+  }
+  .topics{
+    padding: 10px;
+  }
+  .topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+
+  }
+  .topics__container p{
+    flex-grow: 1;
+    border: solid grey 1px;
+    padding: 10px;
+    flex-basis: 25%;
+     }
+     .popular{
+      padding: 10px;
+     }
+     .popular__container{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+      flex-wrap: wrap;
+
+
+     }
+     .footer{
+      background-color: black;
+      display: flex;
+     }
+     .footer__one{
+      color: azure;
+      padding: 10px;
+      
+     }
+     .footer__two{
+      color: azure;
+      padding: 10px;
+     }
